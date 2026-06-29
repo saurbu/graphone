@@ -181,7 +181,7 @@ export default function Footer() {
           <div className="mt-2 flex flex-col items-center justify-between gap-6 border-t border-gray-200 pt-3 text-sm text-gray-500 lg:flex-row">
 
           <p>
-            © 2025 GraphOne. All rights reserved.
+            © 2026 GraphOne. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-6">
