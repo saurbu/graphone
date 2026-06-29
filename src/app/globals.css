@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@keyframes float {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.card-float:hover{
+    animation: float .8s ease-in-out infinite;
+}
+.investor-scroll {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.investor-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+
+}
+
+.research-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.research-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.research-scroll > * {
+  flex: 0 0 auto;
+}
